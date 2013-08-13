@@ -125,7 +125,8 @@ public Action:ListenCommand(client, const String:command[], argc)
 		new Handle:subMenu = CreateMenu(SubMenuHandler);
 		SetMenuTitle(subMenu, "Select the class which your team needs a sub for.");
 		AddMenuItem(subMenu, "scout", "Scout");
-		AddMenuItem(subMenu, "soldier", "Soldier");
+		AddMenuItem(subMenu, "pocket", "Pocket");
+		AddMenuItem(subMenu, "roamer", "Roamer");
 		AddMenuItem(subMenu, "demo", "Demoman");
 		AddMenuItem(subMenu, "medic", "Medic");
 		
